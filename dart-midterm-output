@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'dart:io'; 
 
-
-
 void main() {
 
 
@@ -27,18 +25,18 @@ print ('--------------------');
         if(randomNumber==1)
       
   {
-         print( '$pambato vs Gunting ');
+         print( '$Pambato vs Gunting ');
           print ('You Win');
           score = score+1;
         }
         else if(randomNumber==2)
         {
-          print( '$pambato vs Bato ');
+          print( '$Pambato vs Bato ');
           print ('Tie');
         }
         else
         {
-          print( '$pambato vs Papel ');
+          print( '$Pambato vs Papel ');
           print ('You Lose');
         }
       }
@@ -48,38 +46,38 @@ print ('--------------------');
   {
         if(randomNumber==1)
         {
-          print( '$pambato vs Gunting ');
+          print( '$Pambato vs Gunting ');
           print ('Tie');
         }
         else if(randomNumber==2)
         {
-          print( '$pambato vs Bato ');
+          print( '$Pambato vs Bato ');
           print ('You Lose');
         }
         else
         {
-          print( '$pambato vs Papel ');
+          print( '$Pambatovs Papel ');
           print ('You Win');
           score=score+1;
         }
       }
 
-if(pambato == 'papel'|| pambato== 'Papel')
+if(pambato == 'papel'|| Pambato== 'Papel')
       {
         if(randomNumber==1)
         {
-          print( '$pambato vs Gunting ');
+          print( '$Pambato vs Gunting ');
           print ('You Lose');
         }
         else if(randomNumber==2)
         {
-          print( '$pambato vs Bato ');
+          print( '$Pambato vs Bato ');
           print ('You Win');
           score=score+1;
         }
         else
         {
-          print( '$pambato vs Papel ');
+          print( '$Pambato vs Papel ');
           print ('Tie ');
         }
       }  
@@ -88,5 +86,6 @@ round=round+1;
 print ('--------------------');
 print('score $score' );
 print ('--------------------');
+
 }
 }
