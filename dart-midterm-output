@@ -25,18 +25,18 @@ print ('--------------------');
         if(randomNumber==1)
       
   {
-         print( '$Pambato vs Gunting ');
+         print( '$pambato vs Gunting ');
           print ('You Win');
           score = score+1;
         }
         else if(randomNumber==2)
         {
-          print( '$Pambato vs Bato ');
+          print( '$pambato vs Bato ');
           print ('Tie');
         }
         else
         {
-          print( '$Pambato vs Papel ');
+          print( '$pambato vs Papel ');
           print ('You Lose');
         }
       }
@@ -46,38 +46,38 @@ print ('--------------------');
   {
         if(randomNumber==1)
         {
-          print( '$Pambato vs Gunting ');
+          print( '$pambato vs Gunting ');
           print ('Tie');
         }
         else if(randomNumber==2)
         {
-          print( '$Pambato vs Bato ');
+          print( '$pambato vs Bato ');
           print ('You Lose');
         }
         else
         {
-          print( '$Pambatovs Papel ');
+          print( '$pambato vs Papel ');
           print ('You Win');
           score=score+1;
         }
       }
 
-if(pambato == 'papel'|| Pambato== 'Papel')
+if(pambato == 'papel'|| pambato== 'Papel')
       {
         if(randomNumber==1)
         {
-          print( '$Pambato vs Gunting ');
+          print( '$pambato vs Gunting ');
           print ('You Lose');
         }
         else if(randomNumber==2)
         {
-          print( '$Pambato vs Bato ');
+          print( '$pambato vs Bato ');
           print ('You Win');
           score=score+1;
         }
         else
         {
-          print( '$Pambato vs Papel ');
+          print( '$pambato vs Papel ');
           print ('Tie ');
         }
       }  
